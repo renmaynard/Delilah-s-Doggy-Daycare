@@ -1,0 +1,174 @@
+/************* your name: 
+
+INSTRUCTIONS:
+Comments starting with TO-DO have been included in this file to describe the needed styling: please translate these to the appropriate CSS declarations. 
+
+Comments starting with TO-DO may be left in for reference or removed entirely: all other comments should be left as-is for ease of review.
+
+You are discouraged from changing any provided CSS.
+
+***** colour palette: *****
+- mustard yellow (used for header, footer, and buttons): #E5AF42
+- cornflower blue (used for hover states): #4278e5
+
+*/
+
+/************* site defaults *************/
+body {
+    width: 950px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+.flex{
+    display: flex;
+}
+
+/************* site-wide text styling *************/
+
+h1{
+    font-size: 48px;
+    margin-left: 100px;
+}
+h2{
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+.large-text{
+    font-size: 24px;
+}
+.fake-button{
+    background-color: #E5AF42;
+    align-items: center;
+    line-height: 3;
+    border: black solid 1px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a main,footer:hover{
+    text-decoration: underline;
+}
+.fake-button:hover,.blue-hover:hover{
+    text-decoration: underline;
+    background-color: #4278e5;
+    color: white;
+    cursor: pointer;
+}
+
+/************* header/footer styling *************/
+
+header,footer{
+    background-color: #E5AF42;
+}
+header .flex{
+    height: 150px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+footer{
+    margin-top: 50px;
+    height: 100px;
+    font-weight: 200;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+
+/************* index page *************/
+
+img{
+    width: 300px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+.about-us h2{
+    line-height: 36px;
+}
+.about-us p{
+    margin-bottom: 12px;
+}
+.fake-button{
+    width: 250px;
+    margin-left: 150px;
+    text-align: center;
+}
+
+/************* bookings page *************/
+
+.booking-page{
+    width: 600px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 18%;
+}
+.day-selectors{
+    margin-bottom: 12px;
+}
+ul{
+    margin-left: 100px;
+}
+li{
+    margin-right: 20px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+li,.small-button{
+    border: black solid 1px;
+    align-items: center;
+
+}
+.top-margin{
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.clicked{
+    background-color: #E5AF42;
+}
+#clear-button{
+    width: 200px;
+    margin-left: 33%;
+}
+
+/************* contact page *************/
+.contact{
+    height: 420px;
+    text-align: center;
+}
+label{
+    width: 150px;
+    text-align: right;
+    margin-left: 25%;
+}
+input{
+    width: 300px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    border: black solid 1px;
+}
+textarea{
+    height: 150px;
+    width: 300px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    border: black solid 1px;
+}
+#submit-button{
+    margin-left: 19%;
+    width: 300px;
+}
+
+
